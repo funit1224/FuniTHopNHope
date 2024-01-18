@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Unity WebGL Player | Hop&Hope</title>
-  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <title>Hop&Hope web contents | Hop&Hope</title>
+  <link rel="shortcut icon" type="image/x-icon" href="TemplateData/favicon.ico" />
   <link rel="stylesheet" href="TemplateData/style.css">
 </head>
 
@@ -20,9 +20,14 @@
     </div>
     <div id="unity-warning"> </div>
     <div id="unity-footer">
-      <div id="unity-webgl-logo"></div>
+      <a href="https://www.funit.kr/" target="_blank">
+        <div id="unity-webgl-logo"></div>
+      </a>
       <div id="unity-fullscreen-button"></div>
-      <div id="unity-build-title">Hop&Hope</div>
+      <a href="http://www.hopnhope.com/" target="_blank">
+        <div id="unity-build-title">Hop&Hope</div>
+      </a>
+      </a>
     </div>
   </div>
   <script>
@@ -85,7 +90,7 @@
       unityShowBanner('WebGL builds are not supported on mobile devices.');
     } else {
       canvas.style.width = "960px";
-      canvas.style.height = "600px";
+      canvas.style.height = "540px";
     }
     loadingBar.style.display = "block";
 
